@@ -32,7 +32,7 @@ import { Link } from 'react-router-dom';
                 <li>
                   <Link to="/orders" className="hover:text-blue-500">Orders</Link>
                 </li>
-                {isAdmin &amp;&amp; (
+                {isAdmin && (
                   <li>
                     <Link to="/admin" className="hover:text-blue-500">Admin</Link>
                   </li>
